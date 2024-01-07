@@ -1,13 +1,15 @@
 /*common shared style */
-body{
+body {
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
-    
+
 }
-.text-primary{
-    color:#FD6E0A ;
+
+.text-primary {
+    color: #FD6E0A;
 }
-.btn-primary{
+
+.btn-primary {
     border-radius: 5px;
     background: #FD6E0A;
     border: 0;
@@ -16,27 +18,50 @@ body{
     font-size: 20px;
     font-weight: 700;
 }
+
 /* Nav related style */
-nav{
+nav {
     display: flex;
     align-items: center;
     /* display: flex; */
-    justify-content:space-between ;
+    justify-content: space-between;
+    margin: 0 200px;
 }
-.nav-title{
+
+.nav-title {
     color: #181818;
     font-size: 45px;
     font-weight: 800;
 }
-nav > ul{
+
+nav>ul {
     display: flex;
     align-items: center;
 }
-nav li{
+
+nav li {
     list-style: none;
     margin-right: 50px;
 }
-nav a{
+
+nav a {
     text-decoration: none;
     color: #474747;
+}
+
+/* header related styles */
+.header {
+    background-color: #FFF8F3;
+    ;
+}
+
+.banner {
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+
+.banner .profile-pic {
+    width: 584px;
+    height: 676px;
 }
